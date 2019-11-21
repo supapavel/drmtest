@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="DRM-test app"
+        android:textSize="20dp"
+        android:textColor="#000000"/>
+
+
+    <Button
+        android:id="@+id/button_nonDrm"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:text="Non DRM"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/exo_edit_mode_background_color"/>
+
+    <Button
+        android:id="@+id/button_clearKey"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:text="ClearKey"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <Button
+        android:id="@+id/button_widevine"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:text="Widevine"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:enabled="true"/>
+
+    <Button
+        android:id="@+id/button_playReady"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:text="PlayReady"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:enabled="false"/>
+
+</LinearLayout>

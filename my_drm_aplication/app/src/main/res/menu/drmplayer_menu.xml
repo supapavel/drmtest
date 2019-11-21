@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aap="http://schemas.android.com/apk/res-auto">
+    xmlns:aap="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/back_btn"
+        android:title="Back"
+        aap:showAsAction="always" />
+
+</menu>
