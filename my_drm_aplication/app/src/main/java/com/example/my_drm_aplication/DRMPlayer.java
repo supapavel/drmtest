@@ -49,14 +49,14 @@ public class DRMPlayer extends AppCompatActivity {
 
     //content servers
     private final String CLEARKEY_DASH_URL = "https://media.axprod.net/TestVectors/v7-MultiDRM-SingleKey/Manifest_1080p_ClearKey.mpd";
-    private final String WIDEVINE_DASH_URL = "https://storage.googleapis.com/wvmedia/cenc/hevc/tears/tears_uhd.mpd";
+    private final String WIDEVINE_DASH_URL = "";
     private final String PLAYREADY_DASH_URL = "https://media.axprod.net/TestVectors/v7-MultiDRM-MultiKey-MultiPeriod/Manifest_1080p.mpd";
 
     private String DRM_DASH_URL;
 
     //license server's
     private final String CLEARKEY_LICENSE_URL = "https://drm-clearkey-testvectors.axtest.net/AcquireLicense";
-    private final String WIDEVINE_LICENSE_URL = "https://proxy.uat.widevine.com/proxy";
+    private final String WIDEVINE_LICENSE_URL = "";
     private final String PLAYREADY_LICENSE_URL = "https://drm-playready-licensing.axtest.net/AcquireLicense";
 
     private String DRM_LICENSE_URL;
